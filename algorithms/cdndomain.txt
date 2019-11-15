@@ -43,3 +43,6 @@ aliyuncs.com
 aliyun-inc.com
 cdn.dnsv1.com
 cdntip.com
+yunjiasussl.com
+qiniudn.com
+cdnhwc1.com
