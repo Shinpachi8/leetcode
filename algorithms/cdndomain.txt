@@ -38,6 +38,7 @@ azureedge.net
 anankecdn.com.br
 presscdn.com
 telefonica.com
+cloudflaressl.com
 alikunlun.com
 aliyuncs.com
 aliyun-inc.com
