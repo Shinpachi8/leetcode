@@ -54,3 +54,4 @@ yunjiasu-cdn.net
 yjs-cdn.com
 cdn20.com
 cloudflare.net
+akamaiedge.net
