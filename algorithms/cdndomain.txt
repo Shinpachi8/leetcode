@@ -7,7 +7,7 @@ azioncdn.net
 cachefly.net
 cdn77.net
 cdn77.org
-cdnetworks.com.gccdn.net
+gccdn.net
 cdnify.io
 cdnsun.net
 cdnvideo.ru
@@ -47,3 +47,10 @@ cdntip.com
 yunjiasussl.com
 qiniudn.com
 cdnhwc1.com
+mipcdn.com
+wscdns.com
+jomodns.com
+yunjiasu-cdn.net
+yjs-cdn.com
+cdn20.com
+cloudflare.net
