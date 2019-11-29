@@ -55,3 +55,8 @@ yjs-cdn.com
 cdn20.com
 cloudflare.net
 akamaiedge.net
+cloudflare-azure.com
+cloudflare.com
+cloudflare-identity.com
+instaflare.net
+clairejarrett.com
